@@ -1,13 +1,13 @@
-#include <stdio.h> //lirbrerias genericas
+#include <stdio.h> //librerias genericas
 #include <stdlib.h>
-#include "operaciones.h" //funciones de cuentas
+#include "operaciones.h" //funciones de las cuentas
 
 int main()
 {
 
     //variables
   
-    int operacion;
+    int operacion; //creo variables de numeros enteros
     int num_1;
     int num_2;
     int resultado;
@@ -26,13 +26,13 @@ int main()
 
     printf("Ingrese el primer numero: ");
 
-    scanf("%d",&num_1);
+    scanf("%d",&num_1); //indico el tipo de valor y lo envio a una variable
 
     printf("Ingrese el segundo numero: ");
 
     scanf("%d",&num_2);
 
-    //calculo
+    //confirmo la operacion y llamo a la funcoin
 
     switch (operacion)
     {
