@@ -88,4 +88,4 @@ int main()
     }
 }
 
-//me rindo :( odio los array en c
+//me rindo odio los array en c
