@@ -1,5 +1,4 @@
 #include <stdio.h> //librerias genericas
-#include <stdlib.h>
 #include "operaciones.h" //funciones de las cuentas
 
 int main()
